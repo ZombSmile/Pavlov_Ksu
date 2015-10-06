@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class sorting {
 
   public static void main(String[] args) {
-    double startTime, timeDifferece;
+    double startTim, timeDifferece;
     int size = 10;
     int[] array = new int[size];
     for (int i = 0; i < size; i++) {
