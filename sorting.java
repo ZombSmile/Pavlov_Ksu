@@ -9,12 +9,12 @@ public class sorting {
     for (int i = 0; i < size; i++) {
       array[i] = (int) Math.round(Math.random() * 100 );
     }
-    hairbrush( array , size );
+    sorting( array , size );
     for (int i = 0; i < size ; i++) {
       System.out.println(array[i]);
     }
   }
-  public static void hairbrush(int[] array, int size) {
+  public static void sorting(int[] array, int size) {
     int size1 = size;
     int t;
     boolean swap = true;
